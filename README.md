@@ -24,8 +24,9 @@ Année : 2023
 ## Table des matières
 1. [Arborescence du projet](#1---arborescence-du-projet)
 2. [Présentation](#2---présentation)
-3. [Fonctionnement du programme](#3---fonctionnement-du-programme)
-4. [Résultats](#4---résultats)
+3. [Execution du programme](#3---execution-du-programme)
+4. [Fonctionnement du programme](#3---fonctionnement-du-programme)
+5. [Résultats](#4---résultats)
 
 ## 1-- Arborescence du projet
 
@@ -59,11 +60,22 @@ se résout pas à travers un pilotage centralisé, mais plutôt via la mise en p
 communiquant entre eux afin de parvenir à leurs objectifs.
 > Plus concrètement, chaque tuile de jeu est réprésenté par un agent indépendant communiquant entre eux à travers un système de messagerie. Voir les fichiers 
 
+## 3-- Exécution du programme
+### Via l'executable
+Après avoir téléchargé le fichier **Resolution_Taquin.jar**, il suffit de lancer la commande suivante dans un terminal :
+```bash
+java -jar Resolution_Taquin.jar
+```
 
-## 3-- Fonctionnement du programme
+### Via l'IDE
+Il est également possible de lancer l'application via un IDE depuis la classe _Main.java_.
+
+A noter que cela suppose l'installation de JAVA sur votre machine.
+
+## 4-- Fonctionnement du programme
 Tout le fonctionnement du programme est détaillé au sein du fichier [Rapport.pdf](Rapport/Rapport.pdf).
 
-## 4-- Résultats
+## 5-- Résultats
 - **Résolution complète** des taquins 3x3, 4x4 et 5x5 quelques soit leur nombre de tuiles.
 - **Résolution complète** des taquins rectangulaires compris entre 3 et 5 case de largeur.
 - **Résolution complète** des taquins 6x6 et 7x7 avec 90% des cases occupées par des tuiles
